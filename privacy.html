@@ -37,8 +37,10 @@
 <p>Your location is used to calculate prayer times and the Qibla direction, and is stored on your device. To turn coordinates into a place name for display, they are sent to the OpenStreetMap Nominatim service (openstreetmap.org). No account or identifier is attached. You can decline location access and use approximate times instead.</p>
 <h2>Camera</h2>
 <p>The camera is used to confirm you are at your prayer mat, and to confirm you are out of bed for the Fajr alarm. Recognition runs entirely on your device using Apple Vision. No image from that flow is uploaded, saved to your photo library, or kept after the check.</p>
-<h2>Microphone and recitation</h2>
-<p>Recitation checking listens to your voice. On-device checking keeps the audio on your phone. If you turn on cloud-assisted checking, short recordings of your recitation are sent to our processing service (RunPod) to be analysed and returned. They are used for that check and are not used to identify you or to train anything you have not been asked about. Live Translate, where enabled, sends session audio to a speech-to-text provider for the duration of the session.</p>
+<h2>Microphone and Live Translate</h2>
+<p>The microphone is used by Live Translate, which follows a khutbah and shows it to you in your language. While a session is running, the audio it captures is sent to Deepgram to be turned into text, and that text is sent to Microsoft Azure Translator to be translated. Both are used only to produce what you see on screen during the session. No recording is kept by SalahSafe, and the microphone is not used at any other time.</p>
+<h2>Recitation checking</h2>
+<p>Recite, Memorize and Voice Search are not available in this version — they are marked Coming Soon and cannot be opened. Nothing listens to your recitation, and no recitation audio leaves your device. When those features do arrive, this page will say exactly what they send before they ship.</p>
 <h2>App blocking</h2>
 <p>On iOS, blocking uses Apple Screen Time. Apple deliberately hands apps an opaque token for each app you pick — SalahSafe can count how many apps you selected but can never see which ones, not even to display them back to you. Nothing about your selection leaves the device.</p>
 <h2>Account</h2>
@@ -49,6 +51,8 @@
 <p>Quran text, translations and recitation audio are fetched from Al Quran Cloud and EveryAyah. Those requests carry your IP address, as any web request does, and nothing else about you.</p>
 <h2>Notifications</h2>
 <p>Prayer reminders and alarms are scheduled locally on your phone. No notification is sent from a server.</p>
+<h2>What we do not do</h2>
+<p>There is no advertising in SalahSafe, no advertising identifier, and no tracking of you across other apps or websites. Nothing here is sold or given to a data broker. Your worship is not profiled.</p>
 <h2>Children</h2>
 <p>SalahSafe is not directed at children under 13 and does not knowingly collect their personal information.</p>
 <h2>Your control</h2>
